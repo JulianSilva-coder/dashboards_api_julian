@@ -90,12 +90,3 @@ src/
 ```
 
 ---
-
-## Notas finales
-
-- Proyecto desarrollado como parte de la prueba tipo reestructuración.
-- No se hace uso del nombre "Creangel" en ningún lugar del código, repositorio o documentación.
-- El despliegue cumple el requisito de máximo 3 comandos.
-
-Prueba entregada cumpliendo todos los lineamientos solicitados.
-
