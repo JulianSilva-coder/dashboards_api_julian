@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f6f9;
+  background-color: #5696f5;
   margin: 0;
   padding: 30px;
   color: #333;
@@ -8,9 +8,12 @@ body {
 
 .container {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
   gap: 30px;
   max-width: 1200px;
   margin: auto;
+  padding: 20px;
 }
 
 .section {
@@ -70,4 +73,26 @@ button {
 button:hover {
   background-color: #1d4ed8;
   transform: scale(1.05);
+}
+
+/* Posiciones en el grid */
+
+.project-section {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.source-section {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.panel-section {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.dashboard-section {
+  grid-column: 2;
+  grid-row: 2;
 }
